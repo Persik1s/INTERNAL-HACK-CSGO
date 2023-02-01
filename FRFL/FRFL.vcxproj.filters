@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{766f48d5-7e03-41a7-aa16-25fcd0647389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{118e1937-e62a-4711-bd5d-25875f60cd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2b1a67f2-8aff-4e93-859a-0382f82bf767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FRFL.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.hpp" />
+    <ClInclude Include="settings.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
